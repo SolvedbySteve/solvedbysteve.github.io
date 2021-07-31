@@ -85,7 +85,7 @@ analytics:
 # Site Author
 author:
   name             : "Steven Adeneye"
-  avatar           : "/images/bio-pic-2.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/C2856B23-87C5-46B9-BC56-A239FC1F27AD.JPG" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Data Science Portfolio"
   location         : "Charlotte, NC"
   email            :
@@ -97,7 +97,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "https://github.com/solvedbysteve"
+  github           : "/solvedbysteve"
   gitlab           :
   google_plus      :
   keybase          :
