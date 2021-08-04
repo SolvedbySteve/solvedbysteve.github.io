@@ -151,7 +151,7 @@ For each machine learning model I created a chat bot using Amazon Lex and Amazon
 
 ### Maching learning bot video
 <iframe width="560" height="315"
-src="{{ site.url }}{{ site.baseurl }}/images/credit-bot/zoom_2.mp4"type="video/mp4">
+src="{{ site.url }}{{ site.baseurl }}/images/credit-bot/zoom_2.mp4"
 frameborder="0" 
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
