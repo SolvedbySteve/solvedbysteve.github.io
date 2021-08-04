@@ -1,0 +1,436 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+	
+
+	<link rel="icon" href="/wp-content/uploads/2015/10/DV-R-1025-Transparent.png?x38402" type="image/x-icon" />	
+
+	<link rel="dns-prefetch" href="//dv-website.s3.amazonaws.com" /><link rel="dns-prefetch" href="//fast.wistia.com" /><link rel="dns-prefetch" href="//securepubads.g.doubleclick.net" /><link rel="dns-prefetch" href="//fast.wistia.com" /><meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+	<!-- This site is optimized with the Yoast SEO plugin v15.9.2 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Data Scientist vs. Data Engineer - DATAVERSITY</title>
+	<meta name="description" content="In sharp contrast to the Data Engineer role, the Data Scientist is headed toward automation — making use of advanced tools to combat daily business challenges. The future Data Scientist will be a more tool-friendly data analyst, utilizing a combination of proprietary and packaged models and advanced tools to extract insights from troves of business data." />
+	<link rel="canonical" href="https://www.dataversity.net/data-scientist-vs-data-engineer/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Data Scientist vs. Data Engineer - DATAVERSITY" />
+	<meta property="og:description" content="In sharp contrast to the Data Engineer role, the Data Scientist is headed toward automation — making use of advanced tools to combat daily business challenges. The future Data Scientist will be a more tool-friendly data analyst, utilizing a combination of proprietary and packaged models and advanced tools to extract insights from troves of business data." />
+	<meta property="og:url" content="https://www.dataversity.net/data-scientist-vs-data-engineer/" />
+	<meta property="og:site_name" content="DATAVERSITY" />
+	<meta property="article:published_time" content="2019-01-22T08:35:45+00:00" />
+	<meta property="article:modified_time" content="2019-01-10T02:07:43+00:00" />
+	<meta property="og:image" content="https://dv-website.s3.amazonaws.com/uploads/2019/01/pg_dsvsde_012219.jpg" />
+	<meta property="og:image:width" content="600" />
+	<meta property="og:image:height" content="448" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://www.dataversity.net/#website","url":"https://www.dataversity.net/","name":"DATAVERSITY","description":"Data Education for Business and IT Professionals","potentialAction":[{"@type":"SearchAction","target":"https://www.dataversity.net/?s={search_term_string}","query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"ImageObject","@id":"https://www.dataversity.net/data-scientist-vs-data-engineer/#primaryimage","inLanguage":"en-US","url":"https://dv-website.s3.amazonaws.com/uploads/2019/01/pg_dsvsde_012219.jpg","width":600,"height":448},{"@type":"WebPage","@id":"https://www.dataversity.net/data-scientist-vs-data-engineer/#webpage","url":"https://www.dataversity.net/data-scientist-vs-data-engineer/","name":"Data Scientist vs. Data Engineer - DATAVERSITY","isPartOf":{"@id":"https://www.dataversity.net/#website"},"primaryImageOfPage":{"@id":"https://www.dataversity.net/data-scientist-vs-data-engineer/#primaryimage"},"datePublished":"2019-01-22T08:35:45+00:00","dateModified":"2019-01-10T02:07:43+00:00","author":{"@id":"https://www.dataversity.net/#/schema/person/cb45df94c784fd757c8298e396850623"},"description":"In sharp contrast to the Data Engineer role, the Data Scientist is headed toward automation \u2014 making use of advanced tools to combat daily business challenges. The future Data Scientist will be a more tool-friendly data analyst, utilizing a combination of proprietary and packaged models and advanced tools to extract insights from troves of business data.","breadcrumb":{"@id":"https://www.dataversity.net/data-scientist-vs-data-engineer/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.dataversity.net/data-scientist-vs-data-engineer/"]}]},{"@type":"BreadcrumbList","@id":"https://www.dataversity.net/data-scientist-vs-data-engineer/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"WebPage","@id":"https://www.dataversity.net/","url":"https://www.dataversity.net/","name":"Home"}},{"@type":"ListItem","position":2,"item":{"@type":"WebPage","@id":"https://www.dataversity.net/category/data-topics/","url":"https://www.dataversity.net/category/data-topics/","name":"Data Education"}},{"@type":"ListItem","position":3,"item":{"@type":"WebPage","@id":"https://www.dataversity.net/data-scientist-vs-data-engineer/","url":"https://www.dataversity.net/data-scientist-vs-data-engineer/","name":"Data Scientist vs. Data Engineer"}}]},{"@type":"Person","@id":"https://www.dataversity.net/#/schema/person/cb45df94c784fd757c8298e396850623","name":"Paramita (Guha) Ghosh","description":"Paramita Ghosh has over two and a half decades of business writing experience, much of which has been writing for technology and business domains. She has written extensively for a broad range of industries, including but not limited to data management and data technologies. Paramita has also contributed to blended learning projects. She received her M.A. degree in English Literature in 1984 from Jadavpur University in India, and embarked on her career in the United States in 1989 after completing professional coursework. Having ghostwritten and authored hundreds of articles, blog posts, white papers, case studies, marketing content, and learning modules, Paramita has included authorship of one or two books on the business of business writing as part of her post-retirement projects. She thinks her professional strength is \u201clifelong learning.\u201d"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//ajax.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="DATAVERSITY &raquo; Feed" href="https://www.dataversity.net/feed/" />
+<link rel="alternate" type="application/rss+xml" title="DATAVERSITY &raquo; Comments Feed" href="https://www.dataversity.net/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="DATAVERSITY &raquo; Data Scientist vs. Data Engineer Comments Feed" href="https://www.dataversity.net/data-scientist-vs-data-engineer/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.dataversity.net\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.7.2"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://www.dataversity.net/wp-includes/css/dist/block-library/style.min.css?ver=5.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='gdpr-stylesheet-css'  href='https://www.dataversity.net/wp-content/plugins/GDPRPopup/gdpr.css?ver=03' type='text/css' media='all' />
+<link rel='stylesheet' id='dataversity-style-css'  href='https://www.dataversity.net/wp-content/themes/dataversity/style.css?ver=1.03' type='text/css' media='all' />
+<link rel='stylesheet' id='addtoany-css'  href='https://www.dataversity.net/wp-content/plugins/add-to-any/addtoany.min.css?ver=1.15' type='text/css' media='all' />
+<style id='addtoany-inline-css' type='text/css'>
+.a2a_follow a {
+    float: left;
+    margin: 0px 10px 30px 0px;
+}
+</style>
+<script type='text/javascript' src='https://www.dataversity.net/wp-includes/js/jquery/jquery.min.js?ver=3.5.1' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://www.dataversity.net/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' src='https://www.dataversity.net/wp-content/plugins/add-to-any/addtoany.min.js?ver=1.1' id='addtoany-js'></script>
+<link rel="https://api.w.org/" href="https://www.dataversity.net/wp-json/" /><link rel="alternate" type="application/json" href="https://www.dataversity.net/wp-json/wp/v2/posts/322645" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.dataversity.net/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.dataversity.net/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.7.2" />
+<link rel='shortlink' href='https://www.dataversity.net/?p=322645' />
+<link rel="alternate" type="application/json+oembed" href="https://www.dataversity.net/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.dataversity.net%2Fdata-scientist-vs-data-engineer%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.dataversity.net/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.dataversity.net%2Fdata-scientist-vs-data-engineer%2F&#038;format=xml" />
+
+<script data-cfasync="false">
+window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overlays=[];a2a_config.templates={};
+(function(d,s,a,b){a=d.createElement(s);b=d.getElementsByTagName(s)[0];a.async=1;a.src="https://static.addtoany.com/menu/page.js";b.parentNode.insertBefore(a,b);})(document,"script");
+</script>
+<script type="text/javascript" src="//script.crazyegg.com/pages/scripts/0107/6474.js" async="async" ></script>    <script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+    <script>
+        var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+    </script>
+
+    <script>
+        googletag.cmd.push(function() {
+            googletag.defineSlot('/109556252/dataversity-header', [[728, 90], [650, 100]], 'div-gpt-ad-1546029335993-0').addService(googletag.pubads());
+            googletag.defineSlot('/109556252/dataversity-header/dataversity-300-250', [300, 250], 'div-gpt-ad-1546029068770-0').addService(googletag.pubads());
+            googletag.pubads().enableSingleRequest();
+            googletag.enableServices();
+        });
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-22694188-1"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-22694188-1');
+</script>
+
+</head>
+
+<body class="post-template-default single single-post postid-322645 single-format-standard">
+<div id="page" class="site">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+	<header id="masthead" class="site-header">
+        <nav class="site-navigation">
+            <input type="checkbox" id="more" aria-hidden="true" tabindex="-1" class="toggle"/>
+            <div class="navigation__inner">
+                <div class="navigation__logo">
+                        <a class="navigation__link-logo" href="https://www.dataversity.net/" rel="home"><img src="/wp-content/themes/dataversity/inc/images/dv-logo.png" /></a>
+                </div>
+                <ul id="primary-menu" class="navigation__list"><li id="menu-item-94" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-94 navigation__link"><a href="/">Home</a></li>
+<li id="menu-item-309164" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-309164 navigation__link"><a href="https://www.dataversity.net/category/data-conferences/">Conferences</a></li>
+<li id="menu-item-300359" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-300359 navigation__link"><a target="_blank" rel="noopener" href="http://training.dataversity.net">Training Center</a></li>
+<li id="menu-item-321679" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-321679 navigation__link"><a href="https://www.dataversity.net/category/education/webinars/upcoming-webinars/">Live Webinars</a></li>
+<li id="menu-item-296135" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-296135 navigation__link"><a href="http://whitepapers.dataversity.net">White Papers</a></li>
+<li id="menu-item-336754" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-336754 navigation__link"><a href="https://www.dataversity.net/category/education/webinars/ondemand-webinars/product-demos/">Product Demos</a></li>
+<li id="menu-item-296132" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-296132 navigation__link"><a href="https://www.dataversity.net/category/education/articles/">Articles</a></li>
+<li id="menu-item-296139" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-296139 navigation__link"><a href="https://www.dataversity.net/category/blogs/">Blogs</a></li>
+<li id="menu-item-296134" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-296134 navigation__link"><a title="News" href="https://www.dataversity.net/category/education/daily-data/">News</a></li>
+<li id="menu-item-321680" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-321680 navigation__link"><a title="Slides" href="https://www.dataversity.net/category/education/slide-presentations/">Slides</a></li>
+<li id="menu-item-321678" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-321678 navigation__link"><a href="https://www.dataversity.net/category/education/webinars/ondemand-webinars/">On Demand Webinars</a></li>
+<li id="menu-item-322550" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-322550 navigation__link"><a href="https://www.dataversity.net/category/data-topics/">Data Topics</a></li>
+<li id="menu-item-321677" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-321677 navigation__link"><a href="https://www.dataversity.net/category/education/what-is/">What is&#8230;?</a></li>
+<li id="menu-item-321685" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-321685 navigation__link"><a href="https://www.dataversity.net/category/education/articles/case-studies/">Case Studies</a></li>
+<li id="menu-item-333145" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-333145 navigation__link"><a href="https://www.dataversity.net/category/books/">Books</a></li>
+</ul>
+                <div class="navigation__toggle">
+                    <label for="more" aria-hidden="true" class="navigation__link">More</label>
+                </div>
+                <div class="navigation__search">
+                    <form method="get" autocomplete="off" action="/">
+                        <input type="text" name="s" placeholder="Search..">
+                    </form>
+                </div>
+            </div>
+
+        </nav>
+
+
+	</header><!-- #masthead -->
+        <header class="page-header">
+        <div class="page-header-wrap">
+<h1 class="page-title">Data Topics</h1><ul id="data-topics" class="data_topics"><li id="menu-item-27759" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-27759"><a href="https://www.dataversity.net/category/data-topics/business-intelligence-data-topics/">BI / Data Science</a></li>
+<li id="menu-item-27766" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27766"><a href="https://www.dataversity.net/category/data-topics/database/">Database</a></li>
+<li id="menu-item-322318" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-322318"><a href="https://www.dataversity.net/category/data-topics/data-architecture-news-articles-education/">Data Architecture</a></li>
+<li id="menu-item-331579" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-331579"><a href="https://www.dataversity.net/category/data-topics/data-literacy-news-articles-education/">Data Literacy</a></li>
+<li id="menu-item-27764" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27764"><a href="https://www.dataversity.net/category/data-topics/data-strategy-news-articles-education/">Data Strategy</a></li>
+<li id="menu-item-27762" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27762"><a href="https://www.dataversity.net/category/data-topics/modeling/">Data Modeling</a></li>
+<li id="menu-item-27765" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27765"><a href="https://www.dataversity.net/category/data-topics/enterprise-information-management/">EIM</a></li>
+<li id="menu-item-27761" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27761"><a href="https://www.dataversity.net/category/data-topics/data-governance/">Governance &#038; Quality</a></li>
+<li id="menu-item-276906" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-276906"><a href="https://www.dataversity.net/category/data-topics/smart-data-data-topics/">Smart Data</a></li>
+</ul></div></header>
+	<div id="content" class="site-content">
+
+	<div id="primary" class="clear content-area">
+		<main id="main" class="site-main">
+
+		
+<article id="post-322645" class="post-322645 post type-post status-publish format-standard has-post-thumbnail hentry category-business-intelligence-articles category-business-intelligence-data-topics category-big-data-articles-big-data category-big-data category-articles category-data-topics category-education category-smart-data-articles category-smart-data-data-topics tag-ai tag-automation-tools tag-big-data tag-cloud tag-data-automation tag-data-engineer tag-data-exploration tag-data-governance tag-data-management tag-data-quality tag-data-science tag-data-scientist tag-machine-learning">
+	<ul id="breadcrumbs-post" class="breadcrumbs"><li class="item-home"><a class="bread-link bread-home" href="https://www.dataversity.net" title="Homepage">Homepage</a></li><li class="separator separator-home"> &gt; </li><li class="item-cat"><a href="https://www.dataversity.net/category/data-topics/">Data Education</a></li><li class="separator"> &gt; </li><li class="item-cat"><a href="https://www.dataversity.net/category/data-topics/smart-data-data-topics/">Smart Data News, Articles, & Education</a></li><li class="separator"> &gt; </li><li class="item-current item-322645"><strong class="bread-current bread-322645" title="Data Scientist vs. Data Engineer">Data Scientist vs. Data Engineer</strong></li></ul>	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@dataversity">
+	<meta name="twitter:title" content="Data Scientist vs. Data Engineer">
+	<meta name="twitter:description" content="<p>The Background of Data Science Roles It was thought that the year 2018 would create a huge demand-supply gap in the Data Science market as supply would fail to keep pace with the rising demand for expert Data Scientists. However, the recent buzz from Gartner, which says more than 40 percent of Data Science tasks [&hellip;]</p>
+">
+	<meta name="twitter:image" content="https://dv-website.s3.amazonaws.com/uploads/2019/01/pg_dsvsde_012219.jpg">	
+	<header class="entry-header">
+		<h1 class="entry-title">Data Scientist vs. Data Engineer</h1>By <span class="byline"> <span class="author vcard"><a class="url fn n" href="https://www.dataversity.net/author/paramita-ghosh/">Paramita (Guha) Ghosh</a></span></span> on <span class="posted-on"><a href="https://www.dataversity.net/data-scientist-vs-data-engineer/" rel="bookmark"><time class="entry-date published" datetime="2019-01-22T00:35:45-08:00">January 22, 2019</time><time class="updated" datetime="2019-01-09T18:07:43-08:00">January 9, 2019</time></a></span>	</header><!-- .entry-header -->
+
+	
+	<div class="entry-content">
+		<div class="addtoany_share_save_container addtoany_content addtoany_content_top"><div class="a2a_kit a2a_kit_size_32 addtoany_list" data-a2a-url="https://www.dataversity.net/data-scientist-vs-data-engineer/" data-a2a-title="Data Scientist vs. Data Engineer"><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=https%3A%2F%2Fwww.dataversity.net%2Fdata-scientist-vs-data-engineer%2F&amp;linkname=Data%20Scientist%20vs.%20Data%20Engineer" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=https%3A%2F%2Fwww.dataversity.net%2Fdata-scientist-vs-data-engineer%2F&amp;linkname=Data%20Scientist%20vs.%20Data%20Engineer" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_linkedin" href="https://www.addtoany.com/add_to/linkedin?linkurl=https%3A%2F%2Fwww.dataversity.net%2Fdata-scientist-vs-data-engineer%2F&amp;linkname=Data%20Scientist%20vs.%20Data%20Engineer" title="LinkedIn" rel="nofollow noopener" target="_blank"></a></div></div>
+<div class="wp-block-image"><figure class="alignleft is-resized"><img loading="lazy" src="https://dv-website.s3.amazonaws.com/uploads/2019/01/pg_dsvsde_012219.jpg" alt="Data Scientist vs. Data Engineer" class="wp-image-322635" width="300" height="224"/></figure></div>
+
+
+
+<p><strong>The
+Background of Data Science Roles</strong></p>
+
+
+
+<p>It was thought that the year 2018 would create a huge demand-supply gap in the Data Science market as supply would fail to keep pace with the rising demand for expert Data Scientists. However, the recent buzz from Gartner, which says more than <a href="https://www.kaggle.com/general/47293" target="_blank" rel="noreferrer noopener" aria-label="40 percent of Data Science (opens in a new tab)">40 percent of Data Science</a> tasks will be automated by 2020, changed all that. Boris Gorelik, an experienced Data Scientist, expresses the same opinion about the future of this field and cautions against selecting Data Science as a career. </p>
+
+
+
+<p>The general belief in the industry is that as more and more advanced automation tools are developed, the need for pure Data Scientists will erode. In the future, domain experts and data researchers will be more in demand than <a rel="noreferrer noopener" aria-label=" (opens in a new tab)" href="http://www.dataversity.net/data-scientist-future-will/" target="_blank">Data Scientists</a>. Another buzz in the market suggests that as Data Science moves more toward automation, the back-end, human tasks of Data Analytics are now coming to the foreground in the form of a <a href="http://www.dataversity.net/want-data-engineer/" target="_blank" rel="noreferrer noopener" aria-label=" (opens in a new tab)">Data Engineer</a>. </p>
+
+
+
+<p><strong>So Who
+Is the New Tech Whiz on the Block?</strong></p>
+
+
+
+<p>The <a rel="noreferrer noopener" aria-label="Data Engineer (opens in a new tab)" href="https://www.mckinsey.com/business-functions/mckinsey-analytics/careers/data-engineer" target="_blank">Data Engineer</a> will take charge in near future, guiding the users through the foundation stages of data exploration and analysis. This new data nerd will not only clean and prepare data, but compile database systems, develop appropriate queries, work across platforms, and take care of disaster recovery — all tasks rolled into a single role. The Data Engineer is also expected to have solid <a href="http://www.dataversity.net/big-data-trends-2019/" target="_blank" rel="noreferrer noopener" aria-label=" (opens in a new tab)">Big Data</a> skills, along with hands-on experience with several programming languages like Python, Scala, and Java. </p>
+
+
+
+<p>In sharp contrast to the Data Engineer role, the <a href="https://www.mckinsey.com/business-functions/mckinsey-analytics/careers/data-scientist" target="_blank" rel="noreferrer noopener" aria-label=" (opens in a new tab)">Data Scientist</a> is headed toward automation — making use of advanced tools to combat daily business challenges. The future Data Scientist will be a more tool-friendly data analyst, utilizing a combination of proprietary and packaged models and advanced tools to extract insights from troves of business data. </p>
+
+
+
+<p>With
+the increasing integration of AI and Machine Learning in Data Analytics platforms,
+the Data Scientist of tomorrow may no longer need to have degrees in
+quantitative fields or to develop algorithms from scratch. The Data Scientist
+will still play the role of an advisor or recommender, but with different
+skills. </p>
+
+
+
+<p>If you are itching to dig more into these complimentary roles, then review the DATAVERSITY<sup>®</sup> webinar <em><a href="http://www.dataversity.net/webinar-data-quality-data-engineering-data-science/" target="_blank" rel="noreferrer noopener" aria-label=" (opens in a new tab)">Data Quality, Data Engineering, and Data Science</a>. </em>This webinar is designed for enterprises looking to build an insights-driven business model by harnessing the power of Data Science and Data Engineering, along with Data Governance. The objective of this webinar is to teach profiteering from business data. </p>
+
+
+
+<p><strong>The Data
+Science and the Data Engineering Roles: In Sharp Contrast </strong></p>
+
+
+
+<p>A <a href="https://www.dataquest.io/blog/data-analyst-data-scientist-data-engineer/" target="_blank" rel="noreferrer noopener" aria-label=" (opens in a new tab)">Dataquest blog</a> explains that the Data Engineer usually lays the groundwork for the Data Scientist to “analyze and visualize data.” Some of the initial tasks performed by the Data Engineer may include managing data sources, managing databases, and launching tools to make the Data Scientist’s job easy. So, strictly speaking, the Data Engineer handles all the back-end tasks of Data Analytics that lay hidden from the public eye.</p>
+
+
+
+<p> <em><a rel="noreferrer noopener" aria-label=" (opens in a new tab)" href="https://go.forrester.com/blogs/data-engineers-will-be-more-important-than-data-scientists/" target="_blank">Data Engineers Will Be More Important Than Data Scientists</a></em> suggests that data chiefs in modern enterprises are realizing that advanced and automated tools alone cannot deliver results, which are expected to be both superfast and at scale. In these businesses, the Data Engineer will aid the machines to deliver fast solutions at scale. It is more than likely that in such a scenario, businesses may think of providing insights as a service. The expense-conscious business operators are now questioning whether it is prudent to invest in Data Scientists when Data Engineers and advanced tools can deliver better results faster.</p>
+
+
+
+<p>Today’s insights-driven businesses are more comfortable with the idea of vesting the responsibility of a “<a rel="noreferrer noopener" aria-label="Data Architecture (opens in a new tab)" href="http://www.dataversity.net/data-governance-vs-data-architecture/" target="_blank">Data Architecture</a>” — the blueprint for <a rel="noreferrer noopener" aria-label=" (opens in a new tab)" href="http://www.dataversity.net/data-management-vs-data-governance-improving-organizational-data-strategy/" target="_blank">Data Management</a> and Data Governance — to the Data Engineer, who is believed to be a seasoned expert across all these areas. <em><a rel="noreferrer noopener" aria-label=" (opens in a new tab)" href="https://dzone.com/articles/data-engineers-are-in-greater-demand-than-data-sci" target="_blank">Data Engineers are in Greater Demand than Data Scientists</a> </em>gives an inside view of failed Big Data projects due to the lack of Data Engineers in data teams. The article argues that every data team requires at least five Data Engineers for every Data Scientist. <br><strong><br></strong>Most of the available industry literature point out that Data Engineers are not only more valuable than Data Scientists, they are almost indispensable for the success of <a rel="noreferrer noopener" aria-label=" (opens in a new tab)" href="http://www.dataversity.net/what-is-big-data/" target="_blank">Big Data</a> projects. According to Michelle Goetz of Forrester research, “There may be twelve times as many unfilled data engineering jobs as Data Science jobs.”</p>
+
+
+
+<p><strong>What Is the Special Contribution of a Data Engineer?<br> <br> </strong>Simply put, the Data Scientist can interpret data only after receiving it in an appropriate format. The Data Engineer’s job is to get the data to the Data Scientist. Thus, as of now, Data Engineers are more in demand than Data Scientists because tools cannot perform the tasks of a Data Engineer. </p>
+
+
+
+<p><strong>Data Scientist vs. Data Engineer: Some Published Data </strong></p>
+
+
+
+<p>A <a rel="noreferrer noopener" aria-label=" (opens in a new tab)" href="https://www.datacamp.com/community/blog/data-scientist-vs-data-engineer" target="_blank">Data camp post</a><em> </em>reconfirms that much of the Data Science tasks today will remain unfinished unless the Data Engineer develops processes for modeling, mining, and gathering the data. Though traditionally there was an overlap in the <a href="http://www.dataversity.net/what-is-data-science/" target="_blank" rel="noreferrer noopener" aria-label=" (opens in a new tab)">Data Science</a> and Data Engineer roles, the differences are clearly apparent now. </p>
+
+
+
+<p>The Data Engineer has moved far away from the Data Scientist of yesterday, and in today’s context, the Data Engineer is more involved in managing databases and setting up Data Modeling environments. The Data Scientist comes at the end to use knowledge of quantitative science to build the predictive models. In recent years, the Data Engineer has moved away from the shadow of the Data Scientist and come to the foreground, gaining more prominence. <br></p>
+
+
+
+<p>To promote an understanding that Data Engineering is almost a part of enterprise Data Governance mission, the DATAVERSITY<sup>®</sup> webinar <em><a rel="noreferrer noopener" aria-label=" (opens in a new tab)" href="http://www.dataversity.net/data-ed-webinar-unlock-business-value-through-data-quality-engineering/" target="_blank">Unlock Business Value through Data Quality Engineering</a></em> demonstrates the correlation between Data Quality engineering and an overall business strategy. The presenter of this webinar, Dr. Peter Aiken, is a firm believer that enterprises can identify business problems very quickly if they explore the data problems.<br> <br> According to <a rel="noreferrer noopener" aria-label=" (opens in a new tab)" href="https://www.oreilly.com/ideas/data-engineers-vs-data-scientists" target="_blank">O’Reilly</a>, the Data Engineer has superior programming knowledge while the Data Scientist has more advanced knowledge of Data Analytics. Then there is the Machine Learning Engineer, who sits at the intersection of Data Science and Data Engineering. The implicit message in this publication is that while the Data Engineer takes care of the more nitty-gritty details of data preparation, the Data Scientist can now concentrate on certain other (more sublime) tasks. <strong><br></strong></p>
+
+
+
+<p><strong>Conclusion</strong></p>
+
+
+
+<p>Both
+Data Scientists and Data Engineers are here to stay, but Data Scientists will
+gradually fade into the background while the Data Engineer will gain more
+prominence in the foreground, handling all the manual processes of Data Analytics.
+</p>
+
+
+
+<p><em>Image used under license from
+Shutterstock.com</em></p>
+	</div><!-- .entry-content -->
+
+	</article><!-- #post-322645 -->
+
+<div id="disqus_thread"></div>
+
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+
+<aside id="secondary" class="widget-area">
+    
+	<section id="search-8" class="widget widget_search"><h2 class="widget-title">Search the Site</h2><form role="search" method="get" class="search-form" action="https://www.dataversity.net/">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="Search" />
+			</form></section><section id="custom_html-9" class="widget_text widget widget_custom_html"><h2 class="widget-title">Advertisement</h2><div class="textwidget custom-html-widget"><!-- /109556252/dataversity-header/dataversity-300-250 -->
+<div id='div-gpt-ad-1546029068770-0' style='height:250px; width:300px;'>
+<script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1546029068770-0'); });
+</script>
+</div></div></section><section id="custom_html-12" class="widget_text widget widget_custom_html"><h2 class="widget-title">Why Train with DATAVERSITY</h2><div class="textwidget custom-html-widget"><script src="https://fast.wistia.com/embed/medias/mhldqveg1x.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_mhldqveg1x videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/mhldqveg1x/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div></div></section><section id="custom_html-14" class="widget_text widget widget_custom_html"><h2 class="widget-title">Live Online Class Schedule</h2><div class="textwidget custom-html-widget"><figure class="wp-block-image"><a href="https://training.dataversity.net/catalog?labels=%5B%22Course%20Type%22%5D&values=%5B%22Live%20Online%20Training%22%5D" target="_blank" rel="noopener"><img title=“DVTC” src="https://dv-website.s3.amazonaws.com/uploads/2020/11/DVTC_sidebar_header.jpg" border="0" alt=“DVTC” width=“300px” height=“22px”/></a></figure>
+
+<figure class="wp-block-image"><a href="https://training.dataversity.net/courses/aam0821-an-agile-approach-for-mastering-your-data-and-driving-business-value" target="_blank" rel="noopener"><img title=“aam0821” src="https://dv-website.s3.amazonaws.com/uploads/2021/05/AAM0821_sidebar-300x146-1.jpg" border="0" alt=“aam0821” width=“300px” height=“146px”/></a></figure>
+
+<figure class="wp-block-image"><a href="https://training.dataversity.net/courses/cdg0921-moving-to-the-cloud-bring-data-governance-with-you" target="_blank" rel="noopener"><img title=“CDG0921” src="https://dv-website.s3.amazonaws.com/uploads/2021/06/CDG0921_sidebar-300x146-1.png" border="0" alt=“CDG0921” width=“300px” height=“146px”/></a></figure>
+
+<figure class="wp-block-image"><a href="https://training.dataversity.net/courses/daw0921-data-architecture-workshop-practical-exercises-in-architecture-design" target="_blank" rel="noopener"><img title=“DAW0921” src="https://dv-website.s3.amazonaws.com/uploads/2021/06/DAW0921_sidebar-300x146-1.jpg" border="0" alt=“DAW0921” width=“300px” height=“146px”/></a></figure>
+
+<figure class="wp-block-image"><a href="https://training.dataversity.net/courses/sdgp1021-starting-a-data-governance-program" target="_blank" rel="noopener"><img title=“SDGP1021” src="https://dv-website.s3.amazonaws.com/uploads/2021/06/SDGP1021_sidebar-300x146-1.jpg" border="0" alt=“SDGP1021” width=“300px” height=“146px”/></a></figure>
+
+<figure class="wp-block-image"><a href="https://training.dataversity.net/courses/dsb1121-data-strategy-bootcamp" target="_blank" rel="noopener"><img title=“DSB1121” src="https://dv-website.s3.amazonaws.com/uploads/2021/07/DSB1121_sidebar-300x146-1.jpg" border="0" alt=“DSB1121” width=“300px” height=“146px”/></a></figure></div></section><section id="custom_html-11" class="widget_text widget widget_custom_html"><h2 class="widget-title">DATAVERSITY Events</h2><div class="textwidget custom-html-widget"><figure class="wp-block-image"><a href="https://www.dataversity.net/category/data-conferences/" target="_blank" rel="noreferrer noopener"><img src="https://dv-website.s3.amazonaws.com/uploads/2020/09/2020_DVsidebar_300x250_conferences-.png" alt="" class="wp-image-337971"/></a></figure></div></section><section id="nav_menu-8" class="widget widget_nav_menu"><h2 class="widget-title">DATAVERSITY Website Navigation</h2><div class="menu-home-container"><ul id="menu-home" class="menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-94"><a href="/">Home</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-309164"><a href="https://www.dataversity.net/category/data-conferences/">Conferences</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-300359"><a target="_blank" rel="noopener" href="http://training.dataversity.net">Training Center</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-321679"><a href="https://www.dataversity.net/category/education/webinars/upcoming-webinars/">Live Webinars</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-296135"><a href="http://whitepapers.dataversity.net">White Papers</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-336754"><a href="https://www.dataversity.net/category/education/webinars/ondemand-webinars/product-demos/">Product Demos</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-296132"><a href="https://www.dataversity.net/category/education/articles/">Articles</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-296139"><a href="https://www.dataversity.net/category/blogs/">Blogs</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-296134"><a title="News" href="https://www.dataversity.net/category/education/daily-data/">News</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-321680"><a title="Slides" href="https://www.dataversity.net/category/education/slide-presentations/">Slides</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-321678"><a href="https://www.dataversity.net/category/education/webinars/ondemand-webinars/">On Demand Webinars</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-322550"><a href="https://www.dataversity.net/category/data-topics/">Data Topics</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-321677"><a href="https://www.dataversity.net/category/education/what-is/">What is&#8230;?</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-321685"><a href="https://www.dataversity.net/category/education/articles/case-studies/">Case Studies</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-333145"><a href="https://www.dataversity.net/category/books/">Books</a></li>
+</ul></div></section><section id="custom_html-13" class="widget_text widget widget_custom_html"><h2 class="widget-title">Free Webinars</h2><div class="textwidget custom-html-widget"><figure class="wp-block-image"><a href="https://www.dataversity.net/category/education/webinars/upcoming-webinars/" target="_blank" rel="noreferrer noopener"><img src="https://dv-website.s3.amazonaws.com/uploads/2020/09/2020_DVsidebar_300x250_webinars-.png" alt="" class="wp-image-337971"/></a></figure></div></section><section id="a2a_follow_widget-3" class="widget widget_a2a_follow_widget"><h2 class="widget-title">Follow Us</h2><div class="a2a_kit a2a_kit_size_32 a2a_follow addtoany_list" data-a2a-url="https://www.dataversity.net/feed/" data-a2a-title="DATAVERSITY"><a class="a2a_button_facebook" href="https://www.facebook.com/Dataversity" title="Facebook" rel="noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://twitter.com/Dataversity" title="Twitter" rel="noopener" target="_blank"></a><a class="a2a_button_linkedin_company" href="https://www.linkedin.com/company/dataversity" title="LinkedIn Company" rel="noopener" target="_blank"></a><a class="a2a_button_youtube" href="https://www.youtube.com/user/DataversityChannel" title="YouTube" rel="noopener" target="_blank"></a><a class="a2a_button_feed" href="https://www.dataversity.net/feed/" title="RSS Feed" rel="noopener" target="_blank"></a></div></section></aside><!-- #secondary -->
+
+	</div><!-- #content -->
+    <div style="clear:both;"></div>
+	<footer id="" class="site-footer">
+        <div class="footer-brands">
+            <div class="brands">
+                <a href="http://dataversity.net"><img src="/wp-content/themes/dataversity/inc/images/dv-logo.png" /></a>
+            </div>
+            <div class="brands">
+                <a href="http://dataversity.net">DATAVERSITY.net</a>
+            </div>
+            <div class="brands">
+                <a href="http://tdan.com"> TDAN.com </a>
+            </div>
+            
+        </div>
+        <div class="footer-wrap">
+            <div class="footer-items">
+                <div class="item">
+                    <h2 class="footer">Conferences</h2>
+                    <ul id="footer-menu" class="footer_list"><li id="menu-item-318990" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-318990"><a href="http://enterprisedataworld.com/?utm_source=DV%20Footer&#038;utm_medium=Link">Enterprise Data World</a></li>
+<li id="menu-item-332301" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-332301"><a href="http://dgiqconference.com/">Data Governance &#038; Information Quality</a></li>
+<li id="menu-item-318992" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-318992"><a href="http://dataarchitecturesummit.com/?utm_source=DV%20Footer&#038;utm_medium=Link%20">Data Architecture Summit</a></li>
+<li id="menu-item-327447" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-327447"><a href="http://datagovernancevision.com">DG Vision</a></li>
+</ul>                </div>
+                <div class="item">
+                    <h2 class="footer">Online Conferences</h2>
+                    <ul id="footer-menu" class="footer_list"><li id="menu-item-322506" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-322506"><a href="http://datagovernanceonline.com/?utm_source=DV%20Footer&#038;utm_medium=Link%20">Enterprise Data Governance Online</a></li>
+<li id="menu-item-318994" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-318994"><a href="http://dataarchitectureonline.com/?utm_source=DV%20Footer&#038;utm_medium=Link%20">Data Architecture Online</a></li>
+<li id="menu-item-318995" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-318995"><a href="http://eanalyticsonline.com/?utm_source=DV%20Footer&#038;utm_medium=Link%20">Enterprise Analytics Online</a></li>
+</ul>                </div>
+                <div class="item">
+                    <h2 class="footer">DATAVERSITY Resources</h2>
+                    <ul id="footer-menu" class="footer_list"><li id="menu-item-319001" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-319001"><a href="http://whitepapers.dataversity.net">White Papers</a></li>
+<li id="menu-item-336755" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-336755"><a href="https://www.dataversity.net/category/education/webinars/ondemand-webinars/product-demos/">Product Demos</a></li>
+<li id="menu-item-322340" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-322340"><a href="https://www.dataversity.net/category/education/what-is/">What is&#8230;?</a></li>
+<li id="menu-item-322339" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-322339"><a href="https://www.dataversity.net/concept-object-modeling-notation-comn/">Concept and Object Modeling Notation (COMN)</a></li>
+</ul>                </div>
+                <div class="item">
+                    <h2 class="footer">Company Information</h2>
+                    <ul id="footer-menu" class="footer_list"><li id="menu-item-335347" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-335347"><a href="https://content.dataversity.net/rs/656-WMW-918/images/DATAVERSITYEducation.pdf">Why Train with DATAVERSITY</a></li>
+<li id="menu-item-319005" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-319005"><a href="http://dataversity.net/about-dataversity-net/">About Us</a></li>
+<li id="menu-item-319003" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-319003"><a href="http://content.dataversity.net/Website-Landing-Page_Advertise-with-Us.html">Advertise With Us</a></li>
+<li id="menu-item-319004" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-319004"><a href="https://www.dataversity.net/contact-us/">Contact Us</a></li>
+<li id="menu-item-319006" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-319006"><a href="https://www.dataversity.net/category/education/press-room/">Press Room</a></li>
+</ul>                </div>
+                <div class="item">
+                    <h2 class="footer">Newsletters</h2>
+                    <ul id="footer-menu" class="footer_list"><li id="menu-item-319007" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-319007"><a href="http://content.dataversity.net/DVFooter_SubscribetoDV.html">DATAVERSITY Monthly</a></li>
+<li id="menu-item-319008" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-319008"><a href="http://content.dataversity.net/TDANSubscribeDVFooter_SubscribetoTDAN.html">TDAN.com</a></li>
+</ul>                </div>
+                <div class="item">
+                    <h2 class="footer">DATAVERSITY Education</h2>
+                    <ul id="footer-menu" class="footer_list"><li id="menu-item-322344" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-322344"><a href="https://www.dataversity.net/category/data-conferences/">Data Conferences</a></li>
+<li id="menu-item-322341" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-322341"><a href="https://www.dataversity.net/">Trade Journal</a></li>
+<li id="menu-item-322333" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-322333"><a href="http://training.dataversity.net">Online Training</a></li>
+<li id="menu-item-322342" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-322342"><a href="https://www.dataversity.net/category/education/webinars/upcoming-webinars/">Upcoming Live Webinars</a></li>
+<li id="menu-item-333146" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-333146"><a href="https://www.dataversity.net/category/books/">Books</a></li>
+</ul>                </div>
+
+            </div>
+
+            <div class="footer-conference-items">
+                <ul>
+                    <li><a href="http://dgiqconference.com"><img src="https://dv-website.s3.amazonaws.com/uploads/2018/12/Screen-Shot-2018-12-26-at-2.44.26-PM.png"/></a></li>
+                    <li><a href="http://dataarchitecturesummit.com"><img src="https://dv-website.s3.amazonaws.com/uploads/2018/12/Screen-Shot-2018-12-26-at-2.44.34-PM.png"/></a></li>
+                    <li><a href="http://enterprisedataworld.com"><img src="https://dv-website.s3.amazonaws.com/uploads/2018/12/Screen-Shot-2018-12-26-at-2.44.16-PM.png"/></a></li>
+                </ul>
+            </div>
+        </div>
+
+		<p>
+		© 2011 – 2021 Dataversity Digital LLC | All Rights Reserved. 
+			<a href="/about-dataversity-net/privacy-policy/cookies-settings/"> Cookies Settings</a><a href="/about-dataversity-net/terms-of-service/">Terms of Service</a> <a href="/about-dataversity-net/privacy-policy/"> Privacy Policy</a>
+		</p>
+		
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+
+<div class="section-popup-gdpr">
+	
+
+	<div class="section-inner">
+
+		<div class="gdpr-popup">
+			We use technologies such as cookies to understand how you use our site and to provide a better user experience.  
+			This includes personalizing content, using analytics and improving site operations.  
+			We may share your information about your use of our site with third parties in accordance with our <a href="http://www.dataversity.net/about-dataversity-net/privacy-policy/">Privacy Policy</a>. 
+			You can change your cookie settings as described <a href="http://www.dataversity.net/about-dataversity-net/privacy-policy/cookies-settings/">here</a> at any time, but parts of our site may not function correctly without them. 
+			By continuing to use our site, you agree that we can save cookies on your device, unless you have disabled cookies.  
+			
+		</div><!-- /.gdpr-popup -->
+		<a href="#" class="btn-close">I Accept</a>
+	</div><!-- /.section-inner -->
+</div><script type='text/javascript' src='https://www.dataversity.net/wp-content/plugins/GDPRPopup/gdprpopup.js?ver=02' id='gdpr-javascript-js'></script>
+<script type='text/javascript' id='disqus_count-js-extra'>
+/* <![CDATA[ */
+var countVars = {"disqusShortname":"dataversity"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.dataversity.net/wp-content/plugins/disqus-comment-system/public/js/comment_count.js?ver=3.0.21' id='disqus_count-js'></script>
+<script type='text/javascript' id='disqus_embed-js-extra'>
+/* <![CDATA[ */
+var embedVars = {"disqusConfig":{"integration":"wordpress 3.0.21"},"disqusIdentifier":"322645 https:\/\/www.dataversity.net\/?p=322645","disqusShortname":"dataversity","disqusTitle":"Data Scientist vs. Data Engineer","disqusUrl":"https:\/\/www.dataversity.net\/data-scientist-vs-data-engineer\/","postId":"322645"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.dataversity.net/wp-content/plugins/disqus-comment-system/public/js/comment_embed.js?ver=3.0.21' id='disqus_embed-js'></script>
+<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js?ver=3.4.0' id='jquery-cdn-js'></script>
+<script type='text/javascript' src='https://www.dataversity.net/wp-content/themes/dataversity/js/navigation.js?ver=20151215' id='dataversity-navigation-js'></script>
+<script type='text/javascript' src='https://www.dataversity.net/wp-content/themes/dataversity/js/skip-link-focus-fix.js?ver=20151215' id='dataversity-skip-link-focus-fix-js'></script>
+<script type='text/javascript' src='https://www.dataversity.net/wp-content/themes/dataversity/js/dataversity.js?ver=20151215' id='dataversity-custom-javascript-js'></script>
+<script type='text/javascript' src='https://www.dataversity.net/wp-includes/js/comment-reply.min.js?ver=5.7.2' id='comment-reply-js'></script>
+<script type='text/javascript' src='https://www.dataversity.net/wp-includes/js/wp-embed.min.js?ver=5.7.2' id='wp-embed-js'></script>
+<script src="https://my.hellobar.com/58060acda96cc02c5ac8a0b144a8b53d0ed41d84.js" type="text/javascript" charset="utf-8" async="async"></script>
+</body>
+</html>
