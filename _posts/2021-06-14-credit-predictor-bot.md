@@ -150,6 +150,10 @@ For each machine learning model I created a chat bot using Amazon Lex and Amazon
 
 
 ### Maching learning bot video
+[![ML Bot Vid](https://github.com/SolvedbySteve/solvedbysteve.github.io/blob/master/images/credit-bot/deep_dive)]
+(https://github.com/SolvedbySteve/solvedbysteve.github.io/blob/master/images/credit-bot/zoom_2.mp4 "MLBotVid")
+
+
 <video width="400" height="240" controls>
 <source src="{{ site.url }}{{ site.baseurl }}/images/credit-bot/zoom_2.mp4"type="video/mp4">
 </video>
