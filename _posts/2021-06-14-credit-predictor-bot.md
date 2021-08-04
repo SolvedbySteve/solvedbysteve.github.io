@@ -150,6 +150,7 @@ For each machine learning model I created a chat bot using Amazon Lex and Amazon
 
 
 ### Maching learning bot video
+
 <iframe width="560" height="315"
 src="{{ site.url }}{{ site.baseurl }}/images/credit-bot/zoom_2.mp4"
 frameborder="0" 
@@ -157,17 +158,18 @@ allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe>
 
 
-<video width="400" height="240" controls>
-<source src="{{ site.url }}{{ site.baseurl }}/images/credit-bot/zoom_2.mp4"type="video/mp4">
-</video>
+
 
 ### Deep Learning lambda function
 <a href="/images/credit-bot/deeplearnlambda.JPG"> <img src="{{ site.url }}{{ site.baseurl }}/images/credit-bot/deeplearnlambda.JPG" alt="deeplearnlambda"></a>
 
 ### Deep learning bot video
-<video width="400" height="240" controls>
-<source src="{{ site.url }}{{ site.baseurl }}/images/credit-bot/deepzoomvid.mp4"type="video/mp4">	
-</video>
+
+<iframe width="560" height="315"
+src="{{ site.url }}{{ site.baseurl }}/images/credit-bot/deepzoomvid.mp4"
+frameborder="0" 
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen></iframe>
 
 
 
