@@ -16,7 +16,7 @@ For this project I really wanted to embrace the spirit of Fintech, so I decided 
 
 I believe that this type of analysis is extremely valuable to financial institutions as it allows the business to accuraately detect potential default which impacts the bottom line; The bot also gives the customers of the business a tool to correct reckless credit behavior prior to defaulting on their loan.
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/credit-bot/chatbot2.png" alt="chatbot">
+<a href="/images/credit-bot/chatbot2.png"<img src="{{ site.url }}{{ site.baseurl }}/images/credit-bot/chatbot2.png" alt="chatbot"></a>
 
 
 
@@ -61,7 +61,7 @@ Finally, I created features that measure the customer's total bill for 6 months 
 When I ran the .corr function after added the features, I discovered that I had created features that were more correlated to our taget than the pre-existing features. I also saw that every score increased, therefore, based on the new results I felt comfortable moving forward with our testing. Below you will see every method that I used to predict credit card default. You will see the creation of the pickle file(these are used to load the data into Lambda), accuracy score, balanced accuracy report and an example of the bot that I made in Lex for each method.
 
 ## Logistic Regression Model
-<img src="{{ site.url }}{{ site.baseurl }}/images/credit-bot/logregmodel.jpg" alt="logregpic">
+<img src="{{ site.url }}{{ site.baseurl }}/images/credit-bot/logregmodel.JPG" alt="logregpic">
 
 Below are the scores for the Logistic Regression model. You will notice that the balanced accuracy score is 3% better than the initial results. It is also clear that the prediction of default (1) increased by 4%.
 
