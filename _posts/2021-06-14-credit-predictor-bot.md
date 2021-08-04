@@ -16,7 +16,7 @@ For this project I really wanted to embrace the spirit of Fintech, so I decided 
 
 I believe that this type of analysis is extremely valuable to financial institutions as it allows the business to accuraately detect potential default which impacts the bottom line; The bot also gives the customers of the business a tool to correct reckless credit behavior prior to defaulting on their loan.
 
-<a href="/images/credit-bot/chatbot2.png"<img src="{{ site.url }}{{ site.baseurl }}/images/credit-bot/chatbot2.png" alt="chatbot"/></a>
+<a href="/images/credit-bot/chatbot2.png"> <img src="{{ site.url }}{{ site.baseurl }}/images/credit-bot/chatbot2.png" alt="chatbot"/></a>
 
 
 
