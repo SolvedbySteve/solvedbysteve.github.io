@@ -26,14 +26,14 @@ I believe that this type of analysis is extremely valuable to financial institut
 
 I decided to test several methods of machine learning prior to deploying our Lex Bot. We used the Logistic Regression, Naive Random Oversampling, SMOTE, SMOTEEN, and Clustered Centroid machine learning methods to solve this problem. To determine the best model we looked at accuracy score and the imbalanced classification reports. I also used deep learning to cover all bases.
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/credit-bot/init_corr.png" alt="initial corr">
+<img src="{{ site.url }}{{ site.baseurl }}/images/credit-bot/init_corr.PNG" alt="initial corr">
 
 ## Initial Results
 
 As you will see below, my initial results weren't very good. After I downloaded the dataset from Kaggle, we inspected the data-set by using the .corr method in Python to see which columns were most correlated to our target. I then created the X and y training variables. Our initial results were very low. When I used the data in the Simple Logistic Regression model, the results (seen below) were not favorable. Our initial Balanced Accuracy Score was 59%; I also saw that the Recall Score was at 21% for predicting default (1s) and our F1 score was at 33%. Based on these results, I knew that I needed to make changes immediately.
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/credit-bot/init_corr.png" alt="initial corr">
-<img src="{{ site.url }}{{ site.baseurl }}/images/credit-bot/init_scores.png" alt="initial scores">
+<img src="{{ site.url }}{{ site.baseurl }}/images/credit-bot/init_corr.PNG" alt="initial corr">
+<img src="{{ site.url }}{{ site.baseurl }}/images/credit-bot/init_scores.PNG" alt="initial scores">
 
 
 
@@ -50,13 +50,13 @@ The most correlated columns were the PAY0-PAY6 columns. These features represent
 Finally, I created features that measure the customer's total bill for 6 months as well as the total payment amount for the same time period.
 
 ### Creating the new features
-<img src="{{ site.url }}{{ site.baseurl }}/images/credit-bot/newfeatures.png" alt="newfeatures">
+<img src="{{ site.url }}{{ site.baseurl }}/images/credit-bot/newfeatures.PNG" alt="newfeatures">
 
 ### Showing the new correlation
-<img src="{{ site.url }}{{ site.baseurl }}/images/credit-bot/newfeatcorr.png" alt="newfeatcorr">
+<img src="{{ site.url }}{{ site.baseurl }}/images/credit-bot/newfeatcorr.PNG" alt="newfeatcorr">
 
 ### New scores
-<img src="{{ site.url }}{{ site.baseurl }}/images/credit-bot/newscores.jpg" alt="newscores">
+<img src="{{ site.url }}{{ site.baseurl }}/images/credit-bot/newscores.PNG" alt="newscores">
 
 When I ran the .corr function after added the features, I discovered that I had created features that were more correlated to our taget than the pre-existing features. I also saw that every score increased, therefore, based on the new results I felt comfortable moving forward with our testing. Below you will see every method that I used to predict credit card default. You will see the creation of the pickle file(these are used to load the data into Lambda), accuracy score, balanced accuracy report and an example of the bot that I made in Lex for each method.
 
@@ -67,25 +67,25 @@ Below are the scores for the Logistic Regression model. You will notice that the
 
 
 ### Logistic regression scores
-<img src="{{ site.url }}{{ site.baseurl }}/images/credit-bot/logregscores.jpg" alt="logregscores">
+<img src="{{ site.url }}{{ site.baseurl }}/images/credit-bot/logregscores.JPG" alt="logregscores">
 
 ## Naive Random Oversampling
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/credit-bot/naive.jpg" alt="naivepic">
+<img src="{{ site.url }}{{ site.baseurl }}/images/credit-bot/naive.JPG" alt="naivepic">
 
 Below are the Naive Random Oversampling results. You will see that while the balanced accuracy score increased by 8% over our initial results, the prediction and recall scores were significantly lower than the previous model. I continued to look for the perfect machine learning match.
 
 ### NAIVE Random Oversampling scores
-<img src="{{ site.url }}{{ site.baseurl }}/images/credit-bot/naivescores.jpg" alt="naivescores">
+<img src="{{ site.url }}{{ site.baseurl }}/images/credit-bot/naivescores.JPG" alt="naivescores">
 
 ## Clustered Centroid
-<img src="{{ site.url }}{{ site.baseurl }}/images/credit-bot/cluster.jpg" alt="clusterpic">
+<img src="{{ site.url }}{{ site.baseurl }}/images/credit-bot/cluster.JPG" alt="clusterpic">
 
 
 Below are the Clustered Centroid results. This method barely outperformed the original test in regards to the balanced accuracy score. It performed worse in every other measurable category. I decided against using this method.
 
 ### Clustered Centroid scores
-<img src="{{ site.url }}{{ site.baseurl }}/images/credit-bot/clusterscore.jpg" alt="clusterscores">
+<img src="{{ site.url }}{{ site.baseurl }}/images/credit-bot/clusterscore.JPG" alt="clusterscores">
 
 ## SMOTE
 <img src="{{ site.url }}{{ site.baseurl }}/images/credit-bot/smotepic.jpg" alt="smotepic">
@@ -93,7 +93,7 @@ Below are the Clustered Centroid results. This method barely outperformed the or
 These are the Smote results. The balanced accuracy score is 10% higher than the original results, however, the ability to predict default is ability to predict default is only 49%; This metric is actually worse than the original data.
 
 ### SMOTE scores
-<img src="{{ site.url }}{{ site.baseurl }}/images/credit-bot/smotescores.jpg" alt="smotescores">
+<img src="{{ site.url }}{{ site.baseurl }}/images/credit-bot/smotescores.JPG" alt="smotescores">
 
 ## SMOTEENN
 <img src="{{ site.url }}{{ site.baseurl }}/images/credit-bot/smoteennpic.png" alt="smoteennpic">
@@ -101,7 +101,7 @@ These are the Smote results. The balanced accuracy score is 10% higher than the 
 The Smoteenn results were very similar to the Smote example. This method has the best balanced accuracy score, however it was one of the worst at predicting default.
 
 ### SMOTEEN scores
-<img src="{{ site.url }}{{ site.baseurl }}/images/credit-bot/smoteennscores.jpg" alt="smoteennscores">
+<img src="{{ site.url }}{{ site.baseurl }}/images/credit-bot/smoteennscores.JPG" alt="smoteennscores">
 
 ## Deep Learning
 <img src="{{ site.url }}{{ site.baseurl }}/images/credit-bot/deeplearningpic.jpg" alt="deeplearningpic">
@@ -109,15 +109,15 @@ The Smoteenn results were very similar to the Smote example. This method has the
 Because the standard machine learning methods rendered results that were inconsistent, I turned our attention to deep learning. I created one single layer model and one multi-layered model and tested them against each other to see which one returned the most favorable results.
 
 ### Single layer DEEP LEARNING
-<img src="{{ site.url }}{{ site.baseurl }}/images/credit-bot/deeplearningsingle.jpg" alt="deeplearningsingle">
+<img src="{{ site.url }}{{ site.baseurl }}/images/credit-bot/deeplearningsingle.JPG" alt="deeplearningsingle">
 
 ### Multiple layer DEEP LEARNING
-<img src="{{ site.url }}{{ site.baseurl }}/images/credit-bot/deeplearningmulti.jpg" alt="deeplearningmulti">
+<img src="{{ site.url }}{{ site.baseurl }}/images/credit-bot/deeplearningmulti.JPG" alt="deeplearningmulti">
 
 ### Evaluation the models
-<img src="{{ site.url }}{{ site.baseurl }}/images/credit-bot/plot1.jpg" alt="plot1">
-<img src="{{ site.url }}{{ site.baseurl }}/images/credit-bot/plot2.jpg" alt="plot2">
-<img src="{{ site.url }}{{ site.baseurl }}/images/credit-bot/plot3.jpg" alt="plot3">
+<img src="{{ site.url }}{{ site.baseurl }}/images/credit-bot/plot1.JPG" alt="plot1">
+<img src="{{ site.url }}{{ site.baseurl }}/images/credit-bot/plot2.JPG" alt="plot2">
+<img src="{{ site.url }}{{ site.baseurl }}/images/credit-bot/plot3.JPG" alt="plot3">
 
 
 
@@ -134,13 +134,13 @@ If I was using this to solve a similar problem for a potential client, I would u
 For each machine learning model I created a chat bot using Amazon Lex and Amazon Lambda. I saved each model to a pickle file. This means that I can send these files to anyone in the world and the model is ready to be deployed; There is no need to train the model or manipulate the data. This solution is truly "plug and play."
 
 ### Machine learning AWS Lambda function
-<img src="{{ site.url }}{{ site.baseurl }}/images/credit-bot/smoteennlambda.jpg" alt="bot2">
+<img src="{{ site.url }}{{ site.baseurl }}/images/credit-bot/smoteennlambda.JPG" alt="bot2">
 
 ### Maching learning bot video
 place holder for bot video ![alt text](image.jpg)
 
 ### Deep Learning lambda function
-<img src="{{ site.url }}{{ site.baseurl }}/images/credit-bot/smoteennlambda.jpg" alt="bot2">
+<img src="{{ site.url }}{{ site.baseurl }}/images/credit-bot/deeplearnlambda.JPG" alt="bot2">
 
 ### Deep learning bot video
 place holder for image ![alt text](image.jpg)
