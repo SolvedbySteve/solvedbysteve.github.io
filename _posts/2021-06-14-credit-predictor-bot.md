@@ -149,7 +149,7 @@ For each machine learning model I created a chat bot using Amazon Lex and Amazon
 <a href="/images/credit-bot/smoteennlambda.JPG"> <img src="{{ site.url }}{{ site.baseurl }}/images/credit-bot/smoteennlambda.JPG" alt="smoteennlambda"></a>
 
 
-### Maching learning bot video
+### Machine learning bot video
 
 <iframe width="560" height="315"
 src="{{ site.url }}{{ site.baseurl }}/images/credit-bot/zoom_2.mp4"
