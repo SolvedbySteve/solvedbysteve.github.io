@@ -26,7 +26,6 @@ I believe that this type of analysis is extremely valuable to financial institut
 
 I decided to test several methods of machine learning prior to deploying our Lex Bot. We used the Logistic Regression, Naive Random Oversampling, SMOTE, SMOTEEN, and Clustered Centroid machine learning methods to solve this problem. To determine the best model we looked at accuracy score and the imbalanced classification reports. I also used deep learning to cover all bases.
 
-<a href="/images/credit-bot/init_corr.PNG"> <img src="{{ site.url }}{{ site.baseurl }}/images/credit-bot/init_corr.PNG" alt="initial corr"></a>
 
 
 ## Initial Results
