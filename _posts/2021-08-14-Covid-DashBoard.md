@@ -3,7 +3,7 @@ title: "Covid Dashboard Project"
 date: 2021-08-14
 tags: [sql, sql server, tableau, data analysis, data science, data visualization, etl]
 header:
-  image: "/images/covid-dash/covidheader.JPG"
+  image: "/images/covid-dash/covidheader.jpg"
 excerpt: "SQL, SQL Server, Tableau, Data Analysis, Data Science, Data Visualization, ETL"
 mathjax: "true"
 ---
@@ -28,7 +28,7 @@ Note: These tables are located in the above-mentioned GitHub repository so that 
 
 ### Importing tables
 
-With the two tables created the next step is to import them into SQL Server. If you need help setting up SQL Server please click [here](https://docs.microsoft.com/en-us/sql/database-engine/install-windows/install-sql-server) for instructions. The first thing that I did is create a database and named it PortfolioProject. I then imported my recently created tables by right-clicking on the database, selecting “Tasks” and “Import.” This opens the Import and Export Wizard. The data source that you want to choose is Microsoft Excel. The destination has to be SQL Server Native Client 11. When done correctly, the database should look like this”
+With the two tables created the next step is to import them into SQL Server. If you need help setting up SQL Server please click [here](https://docs.microsoft.com/en-us/sql/database-engine/install-windows/install-sql-server) for instructions. The first thing that I did is create a database and named it PortfolioProject. I then imported my recently created tables by right-clicking on the database, selecting “Tasks” and “Import.” This opens the Import and Export Wizard. The data source that you want to choose is Microsoft Excel. The destination has to be SQL Server Native Client 11. When done correctly, the database should look like this:
 
 <a href="/images/covid-dash/sql-database-creation.JPG"> <img src="{{ site.url }}{{ site.baseurl }}/images/covid-dash/sql-database-creation.JPG" alt="sqldatabase"/></a>
 ### Running Queries
