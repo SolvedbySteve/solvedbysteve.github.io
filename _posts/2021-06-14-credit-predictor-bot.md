@@ -1,10 +1,10 @@
 ---
 title: "Credit Predictor Bot Project"
 date: 2021-06-14
-tags: [data engineering, data science, machine learning, deep learning, aws lambda, aws lex, feature engineering]
+tags: [data engineering, data science, machine learning, deep learning, aws lambda, aws lex, feature engineering, ETL]
 header:
   image: "/images/credit-bot/real-hero.jpeg"
-excerpt: "Data Engineering, Data Science, Machine Learning, Deep learning, AWS Lambda, AWS Lex, Feature Engineering"
+excerpt: "Data Engineering, Data Science, Machine Learning, Deep learning, AWS Lambda, AWS Lex, Feature Engineering, ETL"
 mathjax: "true"
 ---
 
