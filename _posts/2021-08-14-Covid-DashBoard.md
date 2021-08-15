@@ -77,4 +77,4 @@ The final visualization is a line chart that shows a rolling percentage of selec
 Below is the dashboard that was made. This can also be seen here on my Tableau [profile](https://public.tableau.com/app/profile/steven.adeneye/viz/CovidDashboard_16289879988090/Sheet5?publish=yes). This was a fun project and I look forward to creating more exciting posts like this!
 
 <iframe src="https://public.tableau.com/app/profile/steven.adeneye/viz/CovidDashboard_16289879988090/Dashboard1?:showVizHome=no&:embed=true"
- width="645" height="955"></iframe>
+ width="1024" height="1024"></iframe>
