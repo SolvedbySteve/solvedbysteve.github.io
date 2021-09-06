@@ -3,7 +3,7 @@ title: "Python Sodoku Solver"
 date: 2021-09-06
 tags: [python, gaming, programming]
 header:
-  image: "/images/sodoku-header.png"
+  image: "images/sodoku-header.png"
 excerpt: "Python, Gaming, Programming"
 mathjax: "true"
 ---
@@ -24,7 +24,7 @@ The Sodoku board in this game will have 81 squares. To win the game, each row sh
 
 The initial board looks like this:
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/sodoku-empty.jpg" alt="empty sodoku board">
+<img src="{{ site.url }}{{ site.baseurl }}images/sodoku-empty.jpg" alt="empty sodoku board">
 
 This is what the code looks like for the board:
 
