@@ -24,7 +24,7 @@ The Sodoku board in this game will have 81 squares. To win the game, each row sh
 
 The initial board looks like this:
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/sodoku-empty.jpg" alt="empty sodoku board">
+<img src="{{ site.url }}{{ site.baseurl }}/images/sodoku-empty.JPG" alt="empty sodoku board">
 
 This is what the code looks like for the board:
 
