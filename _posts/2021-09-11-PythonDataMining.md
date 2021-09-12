@@ -53,6 +53,7 @@ I am only interested in the title and price of the item that I have selected to 
 
 
 <a href="/images/covid-dash/sql-database-creation.JPG"> <img src="{{ site.url }}{{ site.baseurl }}/images/price-id.PNG" alt="priceid"/></a>
+
 This process was duplicated for the title variable. Once this is completed, the code block should look similar to this:
 
 ```python
